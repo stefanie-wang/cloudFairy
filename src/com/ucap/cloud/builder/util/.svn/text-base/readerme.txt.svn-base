@@ -1,0 +1,9 @@
+基础功能类，包括系统要涉及到的要使用的数据结构
+类名：CreateMethodparams
+功能：通过字符串获取参数对象
+               通过字符串获取RequestParames 对象
+类名：Jsonparse
+功能：将任意一个JSON生成为JSON字符串
+               将JSON信息转为RequestParames对象
+类名：WebserviceListener
+功能：系统启动是将spring配置环境备份一套放入静态属性中。方便进行调用

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4692"
+   name=""
+   committed-date="2012-10-11T02:53:33.350375Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/business/formserver/data/initdata"
+   last-author="sunjq"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="4692"
+   name="InitIdfData.java"
+   text-time="2012-10-11T07:11:35.438254Z"
+   committed-date="2012-10-11T02:53:33.350375Z"
+   checksum="99b59e30abb51de0dfb22ad3d47745e5"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-11T07:11:35.416253Z"/>
+<entry
+   committed-rev="3492"
+   name="readerme.txt"
+   text-time="2012-07-20T02:51:53.119581Z"
+   committed-date="2012-06-12T01:44:21.467875Z"
+   checksum="87902a415ea22bc45bcdd88c60a01d65"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-07-20T02:51:52.932380Z"/>
+<entry
+   committed-rev="4670"
+   name="InitUserData.java"
+   text-time="2012-10-10T05:27:28.644485Z"
+   committed-date="2012-10-10T02:32:17.334750Z"
+   checksum="ef6873a78bb910f87ef477543e352420"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-10T05:27:28.621484Z"/>
+<entry
+   committed-rev="4425"
+   name="LoderUserData.java"
+   text-time="2012-09-05T09:58:49.902767Z"
+   committed-date="2012-09-05T03:03:37.722500Z"
+   checksum="a65a67e351908b0dfe88ce721315be48"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-09-05T09:58:49.892766Z"/>
+</wc-entries>

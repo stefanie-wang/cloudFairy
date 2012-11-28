@@ -1,0 +1,22 @@
+序列化缓存
+一：当项目启动时，将本地序列化文件中的内容读取到缓存中
+二: 停止服务时，将缓存中存入的数据重新写入到序列化文件中
+三: 项目启动之后，每隔十分钟定时将缓存中的数据写入到序列化文件中
+类：com.ucap.cloud.business.formserver.data.outin.IDataInputOutput序列化接口
+方法：void writeObject();将缓存中的数据写入本地
+      void readerObject();将序列化文件中的内容读取到缓存中
+      
+类：com.ucap.cloud.business.formserver.data.outin.DataoutputStream
+属性：IDataInputOutput idio引用了IDataInputOutput
+方法: public void init()启动时需加载的内容
+      public void destroy()停止时要执行的方法
+      
+类：com.ucap.cloud.business.formserver.data.outin.DataInputOutputImpl序列化接口实现类
+属性：CreateCaches ccache获取缓存的工具类
+	  String path 文件写出路径
+方法：void writeObject();将缓存中的数据写入本地
+      void readerObject();将序列化文件中的内容读取到缓存中
+      
+类：com.ucap.cloud.business.formserver.data.outin.SerializedTask定时器执行类
+属性:DataoutputStream dos引用DataoutputStream
+方法:public void run()执行定时器

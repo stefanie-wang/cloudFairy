@@ -1,0 +1,10 @@
+定义整个系统的唯一的对外的webservice接口 
+接口名:MainServices
+方法:service
+参数:类型字符串
+参数格式 :传递的参数为json形式的 。其中有一项为用户名具体格式如下
+	  {userid:userid,objectid:objectid,methodname:methodnam,params:json}
+返回值:
+类型:字符传 
+参数格式： 也是一个json字符串形式
+	 * 具体结构为处理结果的一个json串

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4992"
+   name=""
+   committed-date="2012-11-27T03:19:42.148875Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/business/formserver/cssmanager/css/until"
+   last-author="sunjq"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="4467"
+   name="CssUntilfinelPath.java"
+   text-time="2012-09-06T08:53:54.662982Z"
+   committed-date="2012-09-06T05:44:14.519375Z"
+   checksum="63fcd012560310668f04c385e1188bbc"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-09-06T08:53:54.288582Z"/>
+<entry
+   committed-rev="4719"
+   name="UntilGetRoles.java"
+   text-time="2012-10-18T07:36:34.046690Z"
+   committed-date="2012-10-17T07:05:02.491000Z"
+   checksum="f65b737cf62a9fe95992a9d813068cec"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-18T07:36:33.985686Z"/>
+<entry
+   committed-rev="4054"
+   name="CssUntilCreateCss.java"
+   text-time="2012-08-13T02:07:18.735868Z"
+   committed-date="2012-08-10T06:51:36.000000Z"
+   checksum="9142221f5ade52d98575ea82031768eb"
+   last-author="zhlj"
+   kind="file"
+   prop-time="2012-08-13T02:07:18.555868Z"/>
+<entry
+   committed-rev="4584"
+   name="CssUntilJSPCreate.java"
+   text-time="2012-09-18T05:19:15.277206Z"
+   committed-date="2012-09-17T08:25:36.569125Z"
+   checksum="9989a8396a2753bb97d5c1f142a76414"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-09-18T05:19:15.074406Z"/>
+<entry
+   committed-rev="4384"
+   name="CssUntilRepeat.java"
+   text-time="2012-08-31T08:07:20.909766Z"
+   committed-date="2012-08-31T07:13:10.528750Z"
+   checksum="2f0f6989cf918b4615f7a04bf31f49ee"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.300731Z"/>
+<entry
+   committed-rev="4719"
+   name="UntilGetTabIndex.java"
+   text-time="2012-10-18T07:36:34.083692Z"
+   committed-date="2012-10-17T07:05:02.491000Z"
+   checksum="d4ca30dacc665d281bbc88a45eb2a391"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-18T07:36:33.991687Z"/>
+<entry
+   committed-rev="4384"
+   name="CssUntilGetGrid.java"
+   text-time="2012-08-31T08:07:20.933767Z"
+   committed-date="2012-08-31T07:13:10.528750Z"
+   checksum="2e996561fcdba1d20348fe4c55de04e3"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.370735Z"/>
+<entry
+   committed-rev="4670"
+   name="CssUntilGetAttributeImpl.java"
+   text-time="2012-10-10T05:27:25.926330Z"
+   committed-date="2012-10-10T02:32:17.334750Z"
+   checksum="26f3d154a58b5d7794a742688aba40b6"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-10T05:27:25.672315Z"/>
+<entry
+   committed-rev="4670"
+   name="CreatJsp.java"
+   text-time="2012-10-10T05:27:25.984333Z"
+   committed-date="2012-10-10T02:32:17.334750Z"
+   checksum="398d0c6f7f7613b62c670087bf4dd81e"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-10-10T05:27:25.734319Z"/>
+<entry
+   committed-rev="4379"
+   name="CssUntiltable.java"
+   text-time="2012-08-31T08:07:20.952768Z"
+   committed-date="2012-08-31T06:49:36.060000Z"
+   checksum="90bb76a09f791868d634d6f71d316618"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.419738Z"/>
+<entry
+   committed-rev="4907"
+   name="JspCreate_util.java"
+   text-time="2012-11-19T03:24:09.983142Z"
+   committed-date="2012-11-16T06:42:47.338536Z"
+   checksum="5d0151cd30c1a6bef358665237758c28"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-11-19T03:24:09.962141Z"/>
+<entry
+   committed-rev="4054"
+   name="CssUntilGetAllModel.java"
+   text-time="2012-08-13T02:07:18.825868Z"
+   committed-date="2012-08-10T06:51:36.000000Z"
+   checksum="044f3d2661ecda5ef7e29ce01279739b"
+   last-author="zhlj"
+   kind="file"
+   prop-time="2012-08-13T02:07:18.645868Z"/>
+<entry
+   committed-rev="4809"
+   name="CssUntilParseXML.java"
+   text-time="2012-11-05T08:25:48.388124Z"
+   committed-date="2012-10-31T07:32:46.584750Z"
+   checksum="2bc375b75b65ec82fc5449b78fcf802a"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-11-05T08:25:48.272117Z"/>
+<entry
+   committed-rev="4384"
+   name="CssUntilGetModel.java"
+   text-time="2012-08-31T08:07:20.971769Z"
+   committed-date="2012-08-31T07:13:10.528750Z"
+   checksum="7bf807a3afeb6b2c6d97854b9e426e98"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.447739Z"/>
+<entry
+   committed-rev="4851"
+   name="CssUntilRepeatImpl.java"
+   text-time="2012-11-08T05:16:37.743366Z"
+   committed-date="2012-11-08T03:06:26.240500Z"
+   checksum="28cfa7932f9f62ed107c9b9b20410bb9"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-11-08T05:16:37.701363Z"/>
+<entry
+   committed-rev="4585"
+   name="CreateTableJsp.java"
+   text-time="2012-09-18T05:19:15.324006Z"
+   committed-date="2012-09-17T08:25:47.694125Z"
+   checksum="70b6a8ad2a982e1083f943bad1a4db2f"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-09-18T05:19:15.261606Z"/>
+<entry
+   committed-rev="4385"
+   name="CssUntilGetAttribute.java"
+   text-time="2012-08-31T08:07:20.988770Z"
+   committed-date="2012-08-31T07:13:54.997500Z"
+   checksum="04e5d98361a7fc25c5bcca9088717dd7"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.852763Z"/>
+<entry
+   committed-rev="2996"
+   name="readme.txt"
+   text-time="2012-07-20T02:51:50.046375Z"
+   committed-date="2012-03-22T10:40:04.239125Z"
+   checksum="69b07de84d587b054e52ee326b1c1805"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-07-20T02:51:49.703175Z"/>
+<entry
+   committed-rev="4449"
+   name="CssUntilFileOut.java"
+   text-time="2012-09-05T09:58:49.437740Z"
+   committed-date="2012-09-05T07:53:44.660000Z"
+   checksum="10fc508856e74dc8db4f70181e9f5345"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-09-05T09:58:49.060719Z"/>
+<entry
+   committed-rev="4384"
+   name="CssUntilGetGridImpl.java"
+   text-time="2012-08-31T08:07:20.997771Z"
+   committed-date="2012-08-31T07:13:10.528750Z"
+   checksum="7beba7b5ffab64badb9385913dc2a653"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-31T08:07:20.878764Z"/>
+<entry
+   committed-rev="4214"
+   name="Ifboolean.java"
+   text-time="2012-08-21T02:22:54.400376Z"
+   committed-date="2012-08-20T10:06:43.495571Z"
+   checksum="d77713f3564b648104b611f2f8e23973"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-21T02:22:54.379375Z"/>
+<entry
+   committed-rev="4992"
+   name="CssUntiltableImpl.java"
+   text-time="2012-11-27T07:13:44.932741Z"
+   committed-date="2012-11-27T03:19:42.148875Z"
+   checksum="79202629953c6286c6a0c9b0b07c8f00"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-11-27T07:13:44.898740Z"/>
+</wc-entries>

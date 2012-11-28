@@ -1,0 +1,4 @@
+定义所有与webservice相关的模型
+RequestParames类为所有请求参数的模型
+MethodResponse类为所有返回结果的模型
+MethodParams类为所有请求调用方法的参数模型

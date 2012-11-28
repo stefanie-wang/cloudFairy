@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4394"
+   name=""
+   committed-date="2012-09-03T01:41:02.178704Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/business/formserver/compute/exceptioncomputer"
+   last-author="sunjq"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="4249"
+   name="Compute_exceptioin_avg.java"
+   text-time="2012-08-24T07:47:01.946468Z"
+   committed-date="2012-08-23T09:12:24.978250Z"
+   checksum="d4b20116544f303454599f7aa30c854f"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-08-24T07:47:01.923467Z"/>
+<entry
+   committed-rev="4249"
+   name="Compute_exceptioin_min.java"
+   text-time="2012-08-24T07:47:01.954469Z"
+   committed-date="2012-08-23T09:12:24.978250Z"
+   checksum="16315e7c0eb6a6627e95bd9b10f0787e"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-08-24T07:47:01.928467Z"/>
+<entry
+   committed-rev="4278"
+   name="Compute_exception_ades.java"
+   text-time="2012-08-24T10:08:13.510014Z"
+   committed-date="2012-08-24T09:54:13.665750Z"
+   checksum="f497232e06a3cf2c8f5c7eb886db82f0"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-08-24T10:08:13.501013Z"/>
+<entry
+   committed-rev="4394"
+   name="Compute_exceptioin_sum.java"
+   text-time="2012-09-03T01:48:45.868985Z"
+   committed-date="2012-09-03T01:41:02.178704Z"
+   checksum="48bdb77055162212e9614f1087ebafa7"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-09-03T01:48:45.851984Z"/>
+<entry
+   committed-rev="4249"
+   name="Compute_exceptioin_max.java"
+   text-time="2012-08-24T07:47:01.972470Z"
+   committed-date="2012-08-23T09:12:24.978250Z"
+   checksum="4c513f89b714ed5df81607bf81856cf2"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-08-24T07:47:01.938468Z"/>
+</wc-entries>

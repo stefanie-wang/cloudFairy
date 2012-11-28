@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+	
+	<!-- 字符串类型 -->
+    <model id="TextData">
+        <property>allowCharacters</property>
+        <property>caseConversion</property>
+        <property>minLength</property>
+        <property>maxLength</property>
+        <property>autoTrim</property>
+    </model>
+    
+    <!-- 数字类型 -->
+    <model id="NumbericData">
+    	<property>currencySymbol</property>
+    	<property>separatorAndDecimalStyle</property>
+    	<property>decimalPlaces</property>
+    	<property>minValue</property>
+    	<property>minInclude</property>
+    	<property>maxValue</property>
+    	<property>maxInclude</property>
+    </model>
+    
+    <!-- 日期类型 -->
+    <model id="DateData">
+    	<property>format</property>
+    	<property>beAfter</property>
+    	<property>beBefore</property>
+    </model>
+    
+    <!-- 时间类型 -->
+    <model id="TimeData">
+    	<property>format</property>
+    </model>
+    
+    <!-- 正则表达式 -->
+    <model id="PatternData">
+    	<property>format</property>
+    	<property>hintMsg</property>
+    </model>
+    
+    <!-- 枚举类型 -->
+    <model id="EnumData">
+    	<property>format</property>
+    	<property>hintMsg</property>
+    </model>
+    
+</properties>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3064"
+   name=""
+   committed-date="2012-04-12T09:38:12.229500Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/builder/annotation"
+   last-author="wangjing"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="3064"
+   name="readerme.txt"
+   text-time="2012-07-20T02:51:46.115168Z"
+   committed-date="2012-04-12T09:38:12.229500Z"
+   checksum="50120454520191651dfddd0e51de4ec5"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.099568Z"/>
+<entry
+   committed-rev="3064"
+   name="MethodAuthority.java"
+   text-time="2012-07-20T02:51:46.130768Z"
+   committed-date="2012-04-12T09:38:12.229500Z"
+   checksum="00aaa679783d3ffac33f5f7edb1856fa"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.115168Z"/>
+<entry
+   committed-rev="3064"
+   name="ClassAuthority.java"
+   text-time="2012-07-20T02:51:46.146368Z"
+   committed-date="2012-04-12T09:38:12.229500Z"
+   checksum="306ca4ce0339053e575dfc6f562a9ee3"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.115168Z"/>
+</wc-entries>

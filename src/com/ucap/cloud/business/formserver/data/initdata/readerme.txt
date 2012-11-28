@@ -1,0 +1,10 @@
+不同用户的初始化数据
+类名：com.ucap.cloud.business.formserver.data.InitUserData
+属性：DataModel dm需要初始化的DM对象
+方法：initdm(Element e)参数为数据文件的根节点，将数据文件中对应的节点值添加到DM对象中
+
+类名：com.ucap.cloud.business.formserver.data.initdata.LoderUserData
+属性： String userid用户的ID
+      String idfname用户需要初始化的idf文件
+      String filepath上传的数据文件的路径
+方法：public void loard()加载数据文件并完成赋值      

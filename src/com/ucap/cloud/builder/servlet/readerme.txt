@@ -1,0 +1,5 @@
+系统servlet处理
+类名：UCAPFileUpLoadServlet
+功能：处理文件上传的Servlet
+类名：UCAPFileDownLoadServlet
+功能：处理文件的下载

@@ -1,0 +1,10 @@
+系统动态加载器
+类名：UpLoadZipUtil
+功能：处理Zip包的解压
+类名：DownLoadZipUtil
+功能：处理文件打包下载
+类名：FoundIdf
+功能：遍历一个文件下的所有IDF文件
+
+RootConfig 类用来加载用户对整个系统的权限管理
+	-webservice

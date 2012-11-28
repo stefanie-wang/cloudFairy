@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="formserver" class="com.ucap.cloud.business.outinterface.FormServerFacade">
+		<property name="servermap">
+			<map>
+				<entry>
+					<key>
+						<value>readerform</value>
+					</key>
+					<ref local="readerform" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormCertify</value>
+					</key>
+					<ref local="formServerFormCertify" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormData</value>
+					</key>
+					<ref local="formServerFormData" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormDeleteFile</value>
+					</key>
+					<ref local="formServerFormDeleteFile" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormDoc</value>
+					</key>
+					<ref local="formServerFormDoc" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormEncryptForRecipients</value>
+					</key>
+					<ref local="formServerFormEncryptForRecipients" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormEncryptWithPassword</value>
+					</key>
+					<ref local="formServerFormEncryptWithPassword" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormFixUploadFile</value>
+					</key>
+					<ref local="formServerFormFixUploadFile" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormGetFile</value>
+					</key>
+					<ref local="formServerFormGetFile" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormGetSignatureField</value>
+					</key>
+					<ref local="formServerFormGetSignatureField" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormOpenPDFWithCredentials</value>
+					</key>
+					<ref local="formServerFormOpenPDFWithCredentials" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormOpenPDFWithPassword</value>
+					</key>
+					<ref local="formServerFormOpenPDFWithPassword" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormReader</value>
+					</key>
+					<ref local="formServerFormReader" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormRemoveEncryption</value>
+					</key>
+					<ref local="formServerFormRemoveEncryption" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormResourceServer</value>
+					</key>
+					<ref local="formServerFormResourceServer" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormSignatureInfoEx</value>
+					</key>
+					<ref local="formServerFormSignatureInfoEx" />
+				</entry>
+				<entry>
+					<key>
+						<value>formServerFormUploadFile</value>
+					</key>
+					<ref local="formServerFormUploadFile" />
+				</entry>
+				<entry>
+					<key>
+						<value>openForm</value>
+					</key>
+					<ref local="openForm" />
+				</entry>
+				<entry>
+					<key>
+						<value>pageinfo</value>
+					</key>
+					<ref local="pageinfo" />
+				</entry>
+				<entry>
+					<key>
+						<value>submitData</value>
+					</key>
+					<ref local="submitData" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="readerform" class="com.ucap.cloud.business.outinterface.FormServerImpl"></bean>
+	<bean id="formServerFormCertify"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormCertify"></bean>
+	<bean id="formServerFormData"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormData"></bean>
+	<bean id="formServerFormDeleteFile"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormDeleteFile"></bean>
+	<bean id="formServerFormDoc"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormDoc"></bean>
+	<bean id="formServerFormEncryptForRecipients"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormEncryptForRecipients"></bean>
+	<bean id="formServerFormEncryptWithPassword"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormEncryptWithPassword"></bean>
+	<bean id="formServerFormFixUploadFile"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormFixUploadFile"></bean>
+	<bean id="formServerFormGetFile"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormGetFile"></bean>
+	<bean id="formServerFormGetSignatureField"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormGetSignatureField"></bean>
+	<bean id="formServerFormOpenPDFWithCredentials"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormOpenPDFWithCredentials"></bean>
+	<bean id="formServerFormOpenPDFWithPassword"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormOpenPDFWithPassword"></bean>
+	<bean id="formServerFormReader"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormReader"></bean>
+	<bean id="formServerFormRemoveEncryption"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormRemoveEncryption"></bean>
+	<bean id="formServerFormResourceServer"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormResourceServer"></bean>
+	<bean id="formServerFormSignatureInfoEx"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormSignatureInfoEx"></bean>
+	<bean id="formServerFormUploadFile"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormUploadFile"></bean>
+	<bean id="openForm"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerRenderForm">
+	</bean>
+	<bean id="pageinfo"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerGetPageInfoList">
+	</bean>
+	<bean id="submitData"
+		class="com.ucap.cloud.business.outinterface.formreader.impl.FormServerFormSubmission">
+	</bean>
+</beans>

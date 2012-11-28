@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3451"
+   name=""
+   committed-date="2012-06-06T02:40:40.015625Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/builder/util"
+   last-author="yuxk"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="3065"
+   name="readerme.txt"
+   text-time="2012-07-20T02:51:46.349169Z"
+   committed-date="2012-04-12T09:40:46.057625Z"
+   checksum="d35a1c812b5fe5a0a9fdadcbce2b7d1d"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.317969Z"/>
+<entry
+   committed-rev="3451"
+   name="Jsonparse.java"
+   text-time="2012-07-20T02:51:46.364769Z"
+   committed-date="2012-06-06T02:40:40.015625Z"
+   checksum="316bc75a741d5d698d7ff3fc66fda8f4"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.333569Z"/>
+<entry
+   committed-rev="3065"
+   name="CreateMethodparams.java"
+   text-time="2012-07-20T02:51:46.364769Z"
+   committed-date="2012-04-12T09:40:46.057625Z"
+   checksum="21a096b39465c5fd91e0985280f3e7c6"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:46.349169Z"/>
+</wc-entries>

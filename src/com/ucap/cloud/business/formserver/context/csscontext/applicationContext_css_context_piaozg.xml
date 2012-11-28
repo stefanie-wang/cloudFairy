@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<!-- 判断参数是否为null 避免空指针 -->
+	<bean id="ifboolean" class="com.ucap.cloud.business.formserver.cssmanager.css.until.Ifboolean">
+    </bean>
+    <!-- idf解析圆的控件，并生成css样式表 -->
+	<bean id="circle" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetCircleModelImpl">
+	<!-- 判断参数是否为null 避免空指针 -->
+	 <property name="iftrue">
+            <ref bean="ifboolean"/>
+       </property>
+    </bean>
+     <!-- idf解析dropList的控件，并生成css样式表 -->
+	<bean id="dropList" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetDropListModelImpl">
+	   <!-- 判断参数是否为null 避免空指针 -->
+	    <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+	</bean>
+	 <!-- idf解析label的控件，并生成css样式表 -->
+	<bean id="label" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetLabelModelImpl">
+	  <!-- 判断参数是否为null 避免空指针 -->
+	    <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+	</bean>
+	 <!-- idf解析checkBox的控件，并生成css样式表 -->
+	<bean id="checkBox" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetCheckBoxModelImpl" >
+	   <!-- 判断参数是否为null 避免空指针 -->
+	    <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+	</bean>
+	<!-- idf解析button的控件，并生成css样式表 -->
+    <bean id="button" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetButtonModelImpl">
+       <!-- 判断参数是否为null 避免空指针 -->
+       <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+    </bean>
+    <!-- idf解析input的控件，并生成css样式表 -->
+    <bean id="input" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetInputModelImpl">
+      <!-- 判断参数是否为null 避免空指针 -->
+       <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+    </bean>
+    <!-- idf解析list的控件，并生成css样式表 -->
+    <bean id="list" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetListModelImpl">
+       <!-- 判断参数是否为null 避免空指针 -->
+       <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+    </bean>
+    <!-- idf解析radioBox的控件，并生成css样式表 -->
+    <bean id="radioBox" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetRadioBoxModelImpl">
+       <!-- 判断参数是否为null 避免空指针 -->
+        <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+    </bean>
+     <!-- idf解析upload的控件，并生成css样式表 -->
+    <bean id="upload" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetUploadModelImpl">
+       <!-- 判断参数是否为null 避免空指针 -->
+        <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+    </bean>
+      <!-- idf解析line的控件，并生成css样式表 -->
+    <bean id="line" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetLineModelImpl">
+     <!-- 判断参数是否为null 避免空指针 -->
+     <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+     </bean>
+       <!-- idf解析rectangle的控件，并生成css样式表 -->
+    <bean id="rectangle" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetRectangleModelImpl">
+     <!-- 判断参数是否为null 避免空指针 -->
+     <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+     </bean>
+       <!-- idf解析gridCell的控件，并生成css样式表 -->
+    <bean id="gridCell" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetGridModelImpl">
+    <!-- 判断参数是否为null 避免空指针 -->
+     <property name="iftrue">
+            <ref bean="ifboolean"/>
+        </property>
+      </bean>
+        <!-- idf解析gccref的控件，并生成css样式表 -->
+    <bean id="gccref" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetSortCss"></bean><!--
+    ADD BY SUNJQ 
+    -->
+    <!-- 计算公式加载-->
+    <bean id="computerloader" class="com.ucap.cloud.business.formserver.compute.ComputerLoader"></bean>
+  	 <!-- 解析计算公式-->
+    <bean id="repeatUnitModel" class="com.ucap.cloud.business.formserver.cssmanager.css.getcssfiledate.GetCssFileDateGetRepeatUnitModel
+    "></bean>
+    <!-- 验证信息加载 -->
+    <bean id="vl" class="com.ucap.cloud.business.formserver.validate.ValidataLoader"></bean>
+    <!-- 解析IDf -->
+    <bean id="parseidf" class="com.ucap.cloud.business.formserver.cssmanager.css.until.CssUntilParseXML" init-method="init" scope="prototype">
+      <property name="getbigconmap">
+      <map>
+      <!-- 解析IDf重复表 -->
+               <entry>
+                    <key>
+					<value>table</value>
+					</key>
+                    <ref bean="chongftable"/>
+                </entry>
+        <!-- 解析IDf表格 -->          
+                 <entry>
+                    <key>
+					<value>grid</value>
+					</key>
+                    <ref bean="cssUntilGetGridImpl"/>
+                </entry>
+         <!-- 解析IDF重复块 -->               
+                 <entry>
+                    <key>
+					<value>repeatUnit</value>
+					</key>
+                    <ref bean="repeatim"/>
+                </entry>
+      </map>
+      </property>
+         <!-- 处理idf中的重复表-->
+       <property name="chongftable">
+          <ref bean="chongftable"/>
+       </property>
+          <!-- 处理idf中的重复块-->
+       <property name="repeatim">
+         <ref bean="repeatim"/>
+       </property>
+        <!-- 处理idf中的表格 -->
+       <property name="grid">
+         <ref bean="cssUntilGetGridImpl"/>
+       </property>
+       <!-- 加载计算公式 -->
+        <property name="cloader">
+            <ref local="computerloader"/>
+        </property>
+        <!-- 计算公式 -->
+        <property name="computer">
+            <ref bean="computer"/>
+        </property>
+        <!-- 加载控件属性-->
+        <property name="dp">
+            <ref bean="propeloader"/>
+        </property>
+        <!-- 自定义js事件 -->
+        <property name="devl">
+        	<ref bean="eventloader"/>        	
+        </property>
+        <!-- 控件属性的解析 -->
+        <property name="cuntilattribute">
+        	<ref bean="untilattribute"/>        	
+        </property>
+      <!-- 控件类型对应相应的处理类 -->
+        <property name="map">
+            <map>
+                <entry>
+                    <key>
+					<value>button</value>
+					</key>
+                    <ref bean="button"/>
+                </entry>
+                <entry>
+                    <key>
+					<value>input</value>
+					</key>
+                    <ref bean="input"/>
+                </entry>
+                 <entry>
+                    <key>
+					<value>checkBox</value>
+					</key>
+                    <ref bean="checkBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>label</value>
+                   </key>
+                    <ref bean="label"/>
+                </entry>
+                 <entry>
+                   <key>
+                      <value>dropList</value>
+                   </key>
+                    <ref bean="dropList"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>list</value>
+                   </key>
+                   <ref bean="list"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>radioBox</value>
+                   </key>
+                   <ref bean="radioBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>upload</value>
+                   </key>
+                   <ref bean="upload"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>line</value>
+                  </key>
+                  <ref bean="line"/>
+                </entry>
+                <entry>
+                  <key>
+                     <value>circle</value>
+                  </key>
+                   <ref bean="circle"/>
+                </entry>
+                <entry> 
+                    <key>
+                      <value>rectangle</value>
+                    </key>
+                    <ref bean="rectangle"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>gridCell</value>
+                  </key>
+                  <ref bean="gridCell"/>
+                </entry>
+            </map>
+        </property>
+    </bean>
+    <!-- 解析IDf中控件的属性 -->
+    <bean id="untilattribute" class="com.ucap.cloud.business.formserver.cssmanager.css.until.CssUntilGetAttributeImpl" init-method="init"  >
+    	<property name="vl">
+    		<ref local="vl"/>
+    	</property>
+    	<property name="dp">
+    		<ref bean="propeloader"/>
+    	</property>
+    	<property name="devl">
+    		<ref bean="eventloader"/>
+    	</property>
+    	</bean>
+    	<!-- 解析IDf中的表格 -->
+    <bean id="cssUntilGetGridImpl" class="com.ucap.cloud.business.formserver.cssmanager.css.until.CssUntilGetGridImpl">
+       <property name="gridmap">
+            <map>
+                <entry>
+                    <key>
+					<value>button</value>
+					</key>
+                    <ref bean="button"/>
+                </entry>
+                <entry>
+                    <key>
+					<value>input</value>
+					</key>
+                    <ref bean="input"/>
+                </entry>
+                 <entry>
+                    <key>
+					<value>checkBox</value>
+					</key>
+                    <ref bean="checkBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>label</value>
+                   </key>
+                    <ref bean="label"/>
+                </entry>
+                 <entry>
+                   <key>
+                      <value>dropList</value>
+                   </key>
+                    <ref bean="dropList"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>list</value>
+                   </key>
+                   <ref bean="list"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>radioBox</value>
+                   </key>
+                   <ref bean="radioBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>upload</value>
+                   </key>
+                   <ref bean="upload"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>line</value>
+                  </key>
+                  <ref bean="line"/>
+                </entry>
+                <entry>
+                  <key>
+                     <value>circle</value>
+                  </key>
+                   <ref bean="circle"/>
+                </entry>
+                <entry> 
+                    <key>
+                      <value>rectangle</value>
+                    </key>
+                    <ref bean="rectangle"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>gridCell</value>
+                  </key>
+                  <ref bean="gridCell"/>
+                </entry>
+            </map>
+       </property>
+    </bean>
+    <!-- 解析IDf中的重复快 -->
+    <bean id="repeatim" class="com.ucap.cloud.business.formserver.cssmanager.css.until.CssUntilRepeatImpl"> 
+        <property name="repeatmap">
+            <map>
+                <entry>
+                    <key>
+					<value>button</value>
+					</key>
+                    <ref bean="button"/>
+                </entry>
+                <entry>
+                    <key>
+					<value>input</value>
+					</key>
+                    <ref bean="input"/>
+                </entry>
+                 <entry>
+                    <key>
+					<value>checkBox</value>
+					</key>
+                    <ref bean="checkBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>label</value>
+                   </key>
+                    <ref bean="label"/>
+                </entry>
+                 <entry>
+                   <key>
+                      <value>dropList</value>
+                   </key>
+                    <ref bean="dropList"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>list</value>
+                   </key>
+                   <ref bean="list"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>radioBox</value>
+                   </key>
+                   <ref bean="radioBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>upload</value>
+                   </key>
+                   <ref bean="upload"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>line</value>
+                  </key>
+                  <ref bean="line"/>
+                </entry>
+                <entry>
+                  <key>
+                     <value>circle</value>
+                  </key>
+                   <ref bean="circle"/>
+                </entry>
+                <entry> 
+                    <key>
+                      <value>rectangle</value>
+                    </key>
+                    <ref bean="rectangle"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>gridCell</value>
+                  </key>
+                  <ref bean="gridCell"/>
+                </entry>
+            </map>
+        </property>
+        <property name="repeatUnitModel">
+          <ref bean="repeatUnitModel"/>
+        </property>
+    </bean>
+    <!-- 解析IDf中的重复表-->
+    <bean id="chongftable" class="com.ucap.cloud.business.formserver.cssmanager.css.until.CssUntiltableImpl">
+      <property name="mapcol">
+            <map>
+                <entry>
+                    <key>
+					<value>columns</value>
+					</key>
+                    <value>columns</value>
+                </entry>
+                <entry>
+                    <key>
+					<value>rowsNum</value>
+					</key>
+                    <value>rowsNum</value>
+                </entry>
+                 <entry>
+                    <key>
+					<value>colsNum</value>
+					</key>
+                      <value>colsNum</value>
+                </entry>
+                <entry>
+                   <key>
+                      <value>name</value>
+                   </key>
+                     <value>name</value>
+                </entry>
+                 <entry>
+                   <key>
+                      <value>rowHeight</value>
+                   </key>
+                     <value>rowHeight</value>
+                </entry>
+            </map>
+        </property>
+      <property name="tablemap">
+       <map>
+                <entry>
+                    <key>
+					<value>button</value>
+					</key>
+                    <ref bean="button"/>
+                </entry>
+                <entry>
+                    <key>
+					<value>input</value>
+					</key>
+                    <ref bean="input"/>
+                </entry>
+                 <entry>
+                    <key>
+					<value>checkBox</value>
+					</key>
+                    <ref bean="checkBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>label</value>
+                   </key>
+                    <ref bean="label"/>
+                </entry>
+                 <entry>
+                   <key>
+                      <value>dropList</value>
+                   </key>
+                    <ref bean="dropList"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>list</value>
+                   </key>
+                   <ref bean="list"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>radioBox</value>
+                   </key>
+                   <ref bean="radioBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>upload</value>
+                   </key>
+                   <ref bean="upload"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>line</value>
+                  </key>
+                  <ref bean="line"/>
+                </entry>
+                <entry>
+                  <key>
+                     <value>circle</value>
+                  </key>
+                   <ref bean="circle"/>
+                </entry>
+                <entry> 
+                    <key>
+                      <value>rectangle</value>
+                    </key>
+                    <ref bean="rectangle"/>
+                </entry>
+                <entry>
+                  <key>
+                    <value>gridCell</value>
+                  </key>
+                  <ref bean="gridCell"/>
+                </entry>
+            </map>      
+      </property>
+    <property name="chongfutablemap">
+            <map>
+                <entry>
+                    <key>
+					<value>dropList</value>
+					</key>
+                    <ref bean="dropList"/>
+                </entry>
+                <entry>
+                    <key>
+					<value>list</value>
+					</key>
+                    <ref bean="list"/>
+                </entry>
+                 <entry>
+                    <key>
+					<value>checkBox</value>
+					</key>
+                    <ref bean="checkBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>radioBox</value>
+                   </key>
+                    <ref bean="radioBox"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>upload</value>
+                   </key>
+                    <ref bean="upload"/>
+                </entry>
+                <entry>
+                   <key>
+                      <value>label</value>
+                   </key>
+                    <ref bean="label"/>
+                </entry>
+            </map>
+        </property>
+    
+    </bean>   
+     <bean id="addmap" class="com.ucap.cloud.builder.servlet.XiTongAddres" init-method="init" scope="prototype">
+      <property name="xitongadd">
+      <map>
+               <!-- 记录发布idf文件路径-->
+               <entry>
+                    <key>
+					<value>idfpath</value>
+					</key>
+                    <value></value>
+                </entry>
+                <!-- 记录xslt路径 -->          
+                 <entry>
+                    <key>
+					<value>idfpath</value>
+					</key>
+                    <value></value>
+                </entry>
+                <!-- 记录重复表xslt路径 -->               
+                 <entry>
+                    <key>
+					<value>idfpath</value>
+					</key>
+                    <value></value>
+                </entry>
+                 <!-- 记录重复块xslt路径 -->               
+                 <entry>
+                    <key>
+					<value>idfpath</value>
+					</key>
+                    <value></value>
+                </entry>
+                 <!-- 记录cssModel.xml路径-->               
+                 <entry>
+                    <key>
+					<value>idfpath</value>
+					</key>
+                    <value></value>
+                </entry>
+      </map>
+      </property>
+      </bean>
+</beans>

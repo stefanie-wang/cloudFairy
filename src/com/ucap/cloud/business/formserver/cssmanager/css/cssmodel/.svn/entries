@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="4807"
+   name=""
+   committed-date="2012-10-31T07:32:30.366000Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/business/formserver/cssmanager/css/cssmodel"
+   last-author="sunjq"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="4183"
+   name="CssModelControlsType.java"
+   text-time="2012-08-20T02:24:07.557293Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="79ce85a12a83ba517d0fe926a4ae9052"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.499232Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelTopGridCell.java"
+   text-time="2012-08-20T02:24:07.624296Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="75057577f13fdd858136259a764c0aa0"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.559236Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelTableModel.java"
+   text-time="2012-08-20T02:24:07.614296Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="6f3a5d6912bd12409429485d47d2a14e"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.555235Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelComBoxModel.java"
+   text-time="2012-08-20T02:24:07.604295Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="8fc3d72f1a47c276cf2301d0ca02e9ff"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.521233Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelLineModel.java"
+   text-time="2012-08-20T02:24:07.595295Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="1bc672cc7905e3d6749b5a5db05d1df1"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.516233Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelTableColumnsModel.java"
+   text-time="2012-08-20T02:24:07.673299Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="e4405920f3436f68af1b0272c67fd486"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.603238Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelGetCssModel.java"
+   text-time="2012-08-20T02:24:07.664299Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="e5d10145df958f2c878acdb621aa0727"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.583237Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelBottomGridCell.java"
+   text-time="2012-08-20T02:24:07.683300Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="7d3636722cd09ebdf2631625d9260d6e"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.693243Z"/>
+<entry
+   committed-rev="4807"
+   name="IdfMessage.java"
+   text-time="2012-11-05T08:25:48.034104Z"
+   committed-date="2012-10-31T07:32:30.366000Z"
+   checksum="0b42721e3c662c59456d9a45fd380b0d"
+   last-author="sunjq"
+   kind="file"
+   prop-time="2012-11-05T08:25:48.014103Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelBacklashGridCell.java"
+   text-time="2012-08-20T02:24:07.701301Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="fde2ba0a422e23392d08bae05b21b0db"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.733245Z"/>
+<entry
+   committed-rev="4191"
+   name="CssModelSameCssModel.java"
+   text-time="2012-08-20T02:24:07.719302Z"
+   committed-date="2012-08-19T08:25:10.008250Z"
+   checksum="2fd64e7c4b6f1456fee64fd15d0ee6fa"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.761247Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelBackGround.java"
+   text-time="2012-08-20T02:24:07.710301Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="5470797275c21eb2d5010cf46008a5d5"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.753247Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelSlashGridCell.java"
+   text-time="2012-08-20T02:24:07.727302Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="23b08c2e2c915eb2f41a554a40383632"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.774248Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelRightFridCell.java"
+   text-time="2012-08-20T02:24:07.747303Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="4a4c9e743cb5522436ed625ca70fa59a"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.794249Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelCircleModel.java"
+   text-time="2012-08-20T02:24:07.737303Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="bac9eb1587fb4135f173237db6f3142f"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:06.786249Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelSizeAndPosition.java"
+   text-time="2012-08-20T02:24:07.756304Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="6737af545b814c2dd0644a15881b3a90"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.081265Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelHints.java"
+   text-time="2012-08-20T02:24:07.765305Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="2f9b0707526d8c61836b07489c97b12d"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.144269Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelFone.java"
+   text-time="2012-08-20T02:24:07.774305Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="dde5f361e9b50748d058a9f342988587"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.151269Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelAutorseGridCell.java"
+   text-time="2012-08-20T02:24:07.782306Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="b6874b2d8bf6d59fa9def49593277b33"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.156270Z"/>
+<entry
+   committed-rev="4054"
+   name="IdfUserModel.java"
+   text-time="2012-08-13T02:07:18.265868Z"
+   committed-date="2012-08-10T06:51:36.000000Z"
+   checksum="3903a8ee12a4f4bb37e0a20054d7fe43"
+   last-author="zhlj"
+   kind="file"
+   prop-time="2012-08-13T02:07:17.695867Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelRepeatAreaModel.java"
+   text-time="2012-08-20T02:24:07.791306Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="577ef8fe036166b770777c75380f9dbd"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.172271Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelPageModel.java"
+   text-time="2012-08-20T02:24:07.800307Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="230826a9669b07485e6d11afb6458c1c"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.182271Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelTextAlign.java"
+   text-time="2012-08-20T02:24:07.808307Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="dcf5dfa725aad86f4a0a391625e3ac90"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.187271Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelLeftGridCell.java"
+   text-time="2012-08-20T02:24:07.817308Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="7e0628763f78d5107ceb7ce2c0921e2b"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.194272Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelBorders.java"
+   text-time="2012-08-20T02:24:07.826308Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="4b93d655020facf1604bd2052165cf36"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.216273Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelRepeatUnitModel.java"
+   text-time="2012-08-20T02:24:07.834308Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="0015d9c85e91ca0a037ac3a92557b579"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.536291Z"/>
+<entry
+   committed-rev="2995"
+   name="readme.txt"
+   text-time="2012-07-20T02:51:49.593974Z"
+   committed-date="2012-03-22T10:39:49.379750Z"
+   checksum="fa62f1c5f097d4756a6a4a33b8d4b0bf"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-07-20T02:51:49.359974Z"/>
+<entry
+   committed-rev="4183"
+   name="CssModelRepeatTitleModel.java"
+   text-time="2012-08-20T02:24:07.843309Z"
+   committed-date="2012-08-19T07:58:47.477000Z"
+   checksum="e244911571fe4eea5d5ac305b6606832"
+   last-author="piaozg"
+   kind="file"
+   prop-time="2012-08-20T02:24:07.549292Z"/>
+</wc-entries>

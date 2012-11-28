@@ -1,0 +1,5 @@
+系统自定义annotation
+类名：ClassAuthority
+功能：处理一个对象整体的权限
+类名：MethodAuthority
+功能：处理方法权限

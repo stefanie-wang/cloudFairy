@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3250"
+   name=""
+   committed-date="2012-05-11T07:20:22.431250Z"
+   url="http://192.168.1.8:8000/svn/formpro/02-%E5%BC%80%E5%8F%91%E5%BA%93/%E8%A1%A8%E5%8D%95%E4%BA%A7%E5%93%81%E6%96%B0%E7%89%88%E6%9C%AC/02-%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E5%BA%93/03-%E6%BA%90%E4%BB%A3%E7%A0%81/%E4%BA%91%E4%B8%AD%E4%BB%99%E5%AD%90/cloudFairy/src/com/ucap/cloud/builder/model/webservice"
+   last-author="yuxk"
+   kind="dir"
+   uuid="fa1e93ef-0b9b-1a47-b684-4271a83e1b84"
+   repos="http://192.168.1.8:8000/svn/formpro"
+   revision="4999"/>
+<entry
+   committed-rev="3072"
+   name="MethodResponse.java"
+   text-time="2012-07-20T02:51:44.648766Z"
+   committed-date="2012-04-13T03:22:51.323250Z"
+   checksum="a9e492a638e8413ea098da4b938f70dc"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:44.352365Z"/>
+<entry
+   committed-rev="3250"
+   name="RequestParames.java"
+   text-time="2012-07-20T02:51:44.664366Z"
+   committed-date="2012-05-11T07:20:22.431250Z"
+   checksum="5737feb16e4189e69e06ac4d34d9ffa3"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-07-20T02:51:44.352365Z"/>
+<entry
+   committed-rev="3070"
+   name="MethodParams.java"
+   text-time="2012-07-20T02:51:44.679966Z"
+   committed-date="2012-04-13T02:29:55.760750Z"
+   checksum="3bcfa5549fd92aa747da729451120f08"
+   last-author="yuxk"
+   kind="file"
+   prop-time="2012-07-20T02:51:44.617566Z"/>
+<entry
+   committed-rev="3062"
+   name="readme.txt"
+   text-time="2012-07-20T02:51:44.695566Z"
+   committed-date="2012-04-12T08:32:01.713875Z"
+   checksum="793aaacd7f2b0e9bbb0c765606151885"
+   last-author="wangjing"
+   kind="file"
+   prop-time="2012-07-20T02:51:44.633166Z"/>
+</wc-entries>

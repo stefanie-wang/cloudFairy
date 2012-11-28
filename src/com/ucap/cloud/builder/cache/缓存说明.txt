@@ -1,0 +1,10 @@
+Cache缓存说明
+   1 现在版本缓存统一使用CreateCaches工具类读写缓存
+   2 缓存中内容包括：
+         （allreadyidf）所有用户已发布的IDF信息，以userid做KEY，List<isfmesg>做值，只是一个名字的映射关系
+           idfmesg保存已发布的idf信息，包含数据的idf信息，以idfname做KEY，idfmesg做值，在缓存中并没有加以区分用户
+ 
+   新缓存：
+          在新的缓存中用IdfUserModel 存储idf信息，以用户名加以区分，每一个IdfUserModel 包含一个map，以idfname做KEY，idfmesg做值保存用户发布的信息
+          idfmesg是idf的数据模型，保存用户填报的数据
+           一个用户只需要一个模型，在服务器启动的时候只需要加载不同的序列化文件，依次把文件读出把模型放入缓存中，这样就减少了序列化的难度，只需要操作一层IdfUserModel 

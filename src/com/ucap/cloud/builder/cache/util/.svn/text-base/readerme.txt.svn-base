@@ -1,0 +1,6 @@
+处理缓存功能类
+类名：CreateCaches
+功能：传入Key,value获得相应的cache并将value添加进去，需要缓存的对象必须可序列化
+                关闭cache连接
+               传入Key，从cache中获取相应的对象
+               通过Key删除在cache中的缓存对象

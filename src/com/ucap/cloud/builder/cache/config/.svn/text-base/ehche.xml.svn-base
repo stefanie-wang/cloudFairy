@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<!--<cacheManagerPeerProviderFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerProviderFactory"
+		properties="peerDiscovery=manual,rmiUrls=//192.168.1.97:40000/ucapcache" />
+	--><!--
+		此处ip地址为要进行数据同步的ip地址
+	-->
+
+	<cacheManagerPeerListenerFactory
+		class="net.sf.ehcache.distribution.RMICacheManagerPeerListenerFactory"
+		properties="hostName=127.0.0.1,port=40000,socketTimeoutMillis=120000" />
+	<!--
+		此处ip地址本机的ip地址
+	-->
+
+	<defaultCache maxElementsInMemory="10000" eternal="false"
+		timeToIdleSeconds="120" timeToLiveSeconds="120" overflowToDisk="true"
+		diskSpoolBufferSizeMB="30" maxElementsOnDisk="10000000"
+		diskPersistent="false" diskExpiryThreadIntervalSeconds="120"
+		memoryStoreEvictionPolicy="LRU">    <!--diskExpiryThreadIntervalSeconds该属性为多久同步一次 -->
+		<cacheEventListenerFactory
+			class="net.sf.ehcache.distribution.RMICacheReplicatorFactory" />
+	</defaultCache>
+
+	<cache name="ucapcache" maxElementsInMemory="3000" eternal="false"
+		timeToIdleSeconds="100000" timeToLiveSeconds="100000" overflowToDisk="false">
+		<cacheEventListenerFactory
+			class="net.sf.ehcache.distribution.RMICacheReplicatorFactory" />
+	</cache>
+	
+	<!-- add by sunjq -->
+	<cache name="datacache" maxElementsInMemory="3000" eternal="false"
+		timeToIdleSeconds="100000" timeToLiveSeconds="100000" overflowToDisk="false">
+		<cacheEventListenerFactory
+			class="net.sf.ehcache.distribution.RMICacheReplicatorFactory" />
+	</cache>
+    <!-- end add -->
+
+</ehcache>

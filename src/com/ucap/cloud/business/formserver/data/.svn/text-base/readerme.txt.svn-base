@@ -1,0 +1,45 @@
+存放表单解析的原始数据信息
+并且所有的模型都具有copy功能 当时解析完成作为原始数据进行存储
+其中每次用户提交请求的时候将在原始数据的基础上获取一份数据的拷贝。
+
+类名：com.ucap.cloud.business.formserver.data.model.DataModel用于生成Json的模型
+属性： Map<String,InputModel> inputs存放一个idf文件的输入项数据
+      Map<String,ComputeModel> compMap计算模块公式
+      Map<String,List<ValidataModel>> validata验证公式
+方法：public void bindCalculate() 将输入项所影响的公式绑定到DM中    
+
+类名：com.ucap.cloud.business.formserver.data.model.InputModel可输入项的模型
+属性： String namepath Xpath路径
+      String name 对应的ID
+      String value 具体值
+      Map<String,String> attribute 所有的属性
+      List<String>  calculate 当前组件涉及到的计算公式
+
+类名：com.ucap.cloud.business.formserver.validate.ValidataModel验证的模型
+属性： String based 基础控件，表示会触发验证
+      String id 控件ID
+	  String target 目标控件，不会触发控件	
+	  String operation 校验规则	
+      String relation 表示“并且”还是“或者”
+	  String isEndRule 表示是否为结束
+      String dataType 数据类型
+      String dataFormat 
+      String errMessage 错误信息
+      
+类名：com.ucap.cloud.business.formserver.compute.model.ComputeModel计算公式的模型
+属性： String ref计算结果要赋予的对象id
+      String calculate 计算公式
+      List<String> relevants 需要触发的计算公式
+      List<String> computeelement记录计算公式涉及的计算元素
+
+
+
+
+
+
+
+
+
+
+
+      

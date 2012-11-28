@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="propeloader"
+		class="com.ucap.cloud.business.formserver.data.model.DataModelProLoader"
+		init-method="init">
+		<property name="contextpath">
+			<value>/com/ucap/cloud/business/formserver/data/model/datamodel.xml</value>
+		</property>
+	</bean>
+
+	<bean id="computer" class="com.ucap.cloud.business.formserver.compute.ComputerImpl">
+		<property name="js">
+			<ref bean="jsengine" />
+		</property>
+		<property name="exceptionmap">
+		    <map>
+		        <entry>
+		            <key><value>Table[\d.\w]*Sum</value></key>
+		            <ref bean="sum_computer"/>
+		        </entry>
+		          <entry>
+		            <key><value>Table[\d.\w]*Ave</value></key>
+		            <ref bean="avg_computer"/>
+		        </entry>
+		          <entry>
+		            <key><value>Table[\d.\w]*Max</value></key>
+		            <ref bean="max_computer"/>
+		        </entry>
+		          <entry>
+		            <key><value>Table[\d.\w]*Min</value></key>
+		            <ref bean="min_computer"/>
+		        </entry>
+		        <entry>
+		            <key>
+		                <value>ades_ucap_formserver</value>
+		            </key>
+		            <ref bean="ades_computer"/>
+		        </entry>
+		    </map>
+		</property>
+	</bean>
+	<!-- 特殊计算 -求和-->
+	<bean id="sum_computer" class="com.ucap.cloud.business.formserver.compute.exceptioncomputer.Compute_exceptioin_sum">
+	    <property name="js">
+	        <ref bean="jsengine"/>
+	    </property>
+	</bean>
+	<!-- 特殊计算 -平均值-->
+	<bean id="avg_computer" class="com.ucap.cloud.business.formserver.compute.exceptioncomputer.Compute_exceptioin_avg">
+	    <property name="js">
+	        <ref bean="jsengine"/>
+	    </property>
+	</bean>
+	<!-- 特殊计算 -最大值-->
+	<bean id="max_computer" class="com.ucap.cloud.business.formserver.compute.exceptioncomputer.Compute_exceptioin_max">
+	   
+	</bean>
+	<!-- 特殊计算 -最小值-->
+	<bean id="min_computer" class="com.ucap.cloud.business.formserver.compute.exceptioncomputer.Compute_exceptioin_min">
+	    
+	</bean>
+	<!-- 重复表统计之外的所有计算 -->
+	<bean id="ades_computer" class="com.ucap.cloud.business.formserver.compute.exceptioncomputer.Compute_exception_ades">
+	    <property name="js">
+	        <ref bean="jsengine"/>
+	    </property>
+	</bean>
+	<!-- add by sunjq -->
+	<bean id="eventloader"
+		class="com.ucap.cloud.business.formserver.data.model.DataEventLoader"
+		init-method="init">
+		<property name="contextpath">
+			<value>/com/ucap/cloud/business/formserver/data/model/eventmodel.xml</value>
+		</property>
+	</bean>
+
+	<!-- add by zhanglj  -->
+	<!-- 设置定时器  -->
+	<bean id="serializedtask"
+		class="com.ucap.cloud.business.formserver.data.outin.SerializedTask">
+		<property name="dos">
+			<ref bean="dataoutputstream" />
+		</property>
+	</bean>
+	<!-- 调度定时器任务 -->
+	<bean id="scheduledTask" class="org.springframework.scheduling.timer.ScheduledTimerTask">
+		<!-- 每隔600000ms(10min)运行一次  -->
+		<property name="delay" value="600000"/>
+		<property name="period" value="600000" />
+		<property name="timerTask" ref="serializedtask" />
+	</bean>
+	<!-- 用于启动定时器  -->
+	<bean id="timerFactory" class="org.springframework.scheduling.timer.TimerFactoryBean">
+		<property name="scheduledTimerTasks">
+			<list>
+				<!-- 这里是schedule列表  -->
+				<ref bean="scheduledTask" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="datawrite"
+		class="com.ucap.cloud.business.formserver.data.outin.DataInputOutputImpl">
+		<property name="path">
+			<value>datafile/</value>
+		</property>
+		<property name="ccache">
+			<ref bean="ucapcache" />
+		</property>
+	</bean>
+	<bean id="dataoutputstream"
+		class="com.ucap.cloud.business.formserver.data.outin.DataoutputStream" init-method="init" destroy-method="destroy">
+		<property name="idio">
+			<ref bean="datawrite" />
+		</property>
+	</bean>
+	
+	<bean id="formutil"
+		class="com.ucap.cloud.business.outinterface.FormUtil" >
+		<property name="upDir">
+			<value>testidffoold/</value>
+		</property>
+	</bean>
+	
+	
+	<!--	 end by zhanglj  -->
+</beans>

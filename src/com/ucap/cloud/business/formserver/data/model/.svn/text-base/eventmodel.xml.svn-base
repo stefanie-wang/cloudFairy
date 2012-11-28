@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<properties>
+
+	<!-- 按钮类型-->
+    <model id="button">
+        <property>onBlur</property>
+        <property>onFocus</property>
+        <property>onClick</property>
+        <property>onKeyDown</property>
+        <property>onKeyUp</property>
+        <property>onMouseDown</property>
+        <property>onMouseMove</property>
+        <property>onMouseUp</property>
+        <property>onKeyPress</property>
+    </model>
+    
+	<!-- 编辑框类型 -->
+    <model id="input">
+        <property>onBlur</property>
+        <property>onFocus</property>
+        <property>onClick</property>
+        <property>onKeyDown</property>
+        <property>onKeyUp</property>
+        <property>onMouseDown</property>
+        <property>onMouseMove</property>
+        <property>onMouseUp</property>
+        <property>onCalculate</property>
+        <property>onChange</property>
+        <property>onValidate</property>
+        <property>onDbClick</property>     
+    </model>
+    
+    <!-- 多选框-->
+    <model id="checkBox">
+    	<property>onBlur</property>
+    	<property>onFocus</property>
+    	<property>onClick</property>
+    	<property>onKeyDown</property>
+    	<property>onKeyPress</property>
+    	<property>onKeyUp</property>
+    	<property>onMouseDown</property>
+    	<property>onMouseMove</property>
+    	<property>onMouseUp</property>
+    </model>
+    
+    <!-- 单选框 -->
+    <model id="DateData">
+    	<property>onBlur</property>
+    	<property>onFocus</property>
+    	<property>onClick</property>
+    	<property>onKeyDown</property>
+    	<property>onKeyPress</property>
+    	<property>onKeyUp</property>
+    	<property>onMouseDown</property>
+    	<property>onMouseMove</property>
+    	<property>onMouseUp</property>   	
+    </model>
+   
+     <!-- 下拉框 -->
+    <model id="dropList">
+    	<property>onChange</property>
+    	<property>onBlur</property>
+    	<property>onFocus</property>
+    	<property>onClick</property>
+    	<property>onKeyDown</property>
+    	<property>onKeyPress</property>
+    	<property>onKeyUp</property>
+    	<property>onMouseDown</property>
+    	<property>onMouseMove</property>   	
+    	<property>onMouseUp</property>  
+    </model>
+    
+    <!-- 标签 -->
+    <model id="label">
+    	<property>onClick</property>
+    	<property>onDbClick</property>
+    	<property>onMouseDown</property>
+    	<property>onMouseMove</property>
+    	<property>onMouseUp</property>   	
+    </model>
+    
+      <!-- 上载 -->
+    <model id="upload">
+    	<property>onBeforeUpLoad</property>
+    	<property>onAfterUpLoad</property>  	
+    </model>
+    
+    <!-- 列表框 -->
+    <model id="list">
+    	<property>onChange</property>
+    	<property>onBlur</property>
+    	<property>onFocus</property>
+    	<property>onClick</property>
+    	<property>onKeyDown</property>
+    	<property>onKeyPress</property>
+    	<property>onKeyUp</property>
+    	<property>onMouseDown</property>
+    	<property>onMouseMove</property>   	
+    	<property>onMouseUp</property>  
+    </model>
+    
+     <!-- 签名控件 -->
+    <model id="signature">
+    	<property>onBeforeSign</property>
+    	<property>onAfterSign</property>
+    	<property>onBeforeVerify</property>
+    	<property>onAfterVerify</property>
+    	<property>onBeforeClean</property>
+    	<property>onAfterClean</property> 
+    </model>
+    
+    <!-- 重复表控件 -->
+    <model id="table">
+    	<property>onBeforeInsert</property>
+    	<property>onAfterInsert</property>
+    	<property>onBeforeDelete</property>
+    	<property>onAfterDelete</property> 
+    </model>
+    
+    <!-- 重复快控件 -->
+     <model id="repeatUnit">
+        <property>onClick</property>
+    	<property>onBeforeInsert</property>
+    	<property>onAfterInsert</property>
+    	<property>onBeforeDelete</property>
+    	<property>onAfterDelete</property> 
+    </model>
+    
+</properties>
